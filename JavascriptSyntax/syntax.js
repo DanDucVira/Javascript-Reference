@@ -6,7 +6,5 @@ var car = "Telsa"
 console.log(car);
 
 //this is how you use numbers
-var number = "29";
+var number = 29;
 console.log(number);
-
-
