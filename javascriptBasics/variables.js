@@ -15,3 +15,13 @@ console.log(name);
 //old keyword in javascript (var)
 var old = true;
 console.log(old);
+
+/*Data Types:
+---Numbers
+---String
+---Boolean
+---Null
+---Undefined
+---Object
+---Symbol
+*/
