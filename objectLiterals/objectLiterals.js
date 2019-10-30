@@ -14,6 +14,14 @@ let user = {
     },
     logout: function () {
         console.log("user logged out");
+    },
+    logBlogs: function () {
+        // console.log(this.blogs);
+        console.log("this user has written following blogs:");
+        //this 'keyword
+        this.blogs.forEach(blog => {
+            console.log(blog);
+        })
     }
 };
 
