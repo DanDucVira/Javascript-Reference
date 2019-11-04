@@ -38,6 +38,20 @@ const changPara = document.querySelector('p');
 
 const changParas = document.querySelectorAll('p');
 
-changParas.forEach(changPara => {
-    console.log(changPara.innerText);
+// changParas.forEach(changPara => {
+//     console.log(changPara.innerText);
+//     changPara.innerText += ' new text';
+// });
+
+
+const content = document.querySelector('.content');
+
+// console.log(content.innerHTML);
+
+// content.innerHTML = '<h2>This is a another headline</h2>';
+// console.log(content);
+const people = ['Daniel', 'Dragonborn', 'skyrim'];
+
+people.forEach(person => {
+    content.innerHTML += `<p>${person}</p>`;
 });
