@@ -80,4 +80,22 @@ headTitle.style.color = 'green';
 
 //adding and removing classes
 
+const content2 = document.querySelector('p');
+console.log(content2.classList); //to see what class are on the element
 
+content2.classList.add('errorNow');
+content2.classList.remove('errorNow');
+
+
+const paras = document.querySelectorAll('p');
+
+paras.forEach(p => {
+    if (p.textContent.includes('error')) {
+        p.classList.add('error');
+    } else if (p.innerText.includes('success')) {
+        p.classList.add('success');
+    }
+});
+const title = document.querySelectorAll('.title');
+
+title.classList.toggle('test');
