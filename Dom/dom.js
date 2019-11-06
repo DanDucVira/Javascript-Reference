@@ -77,3 +77,7 @@ const headTitle = document.querySelector('h2');
 console.log(headTitle.style);
 console.log(headTitle.style.color);
 headTitle.style.color = 'green';
+
+//adding and removing classes
+
+
