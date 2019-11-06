@@ -70,3 +70,10 @@ const mssg = document.querySelector('p');
 console.log(mssg.getAttribute('class'));
 mssg.setAttribute('class', 'success');
 mssg.setAttribute('style', 'color:green;');
+
+//Changing Css styles
+const headTitle = document.querySelector('h2');
+
+console.log(headTitle.style);
+console.log(headTitle.style.color);
+headTitle.style.color = 'green';
