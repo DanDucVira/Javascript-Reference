@@ -23,3 +23,13 @@ score /= 2;
 score++;
 
 score--;
+
+// const
+/* const works just like let. except you CANNOT change the value*/
+
+const hens = 4;
+hens = 20; //ERROR
+
+
+const age = 17;
+age = age + 1; //ERROR
