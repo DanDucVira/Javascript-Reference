@@ -14,6 +14,6 @@ console.log(futurAge);
 
 //Nan --- not a Number
 //NaN is a numeric value that represents something that is not...a number\
-/8/example
+//example
 0 / 0 //Nan
 1 + NaN; //Nan
