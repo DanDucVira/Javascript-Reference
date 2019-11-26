@@ -30,3 +30,34 @@ let color = "  green";
 
 color.trim() //removes spaces
 color.trim().toUpperCase()
+
+
+//more String Methods
+/*
+example: thing.method(arg)
+some methods accept -arguments- that modify their behavior.
+we pass these arguments inside of the parentheses.
+*/
+
+
+//indexOf
+
+let tvShow = 'catdog';
+tvShow.indexOf('cat'); // 0
+tvShow.indexOf('dog'); // 3
+tvShow.indexOf('z'); // -1 (not found)
+
+
+
+//slice
+
+let str = 'skyrim';
+
+str.slice(0, 3) //sky
+str.slice(5) //skyrim
+
+//replace
+
+let annoyingLaugh = "teehee so funny! teehee!";
+annoyingLaugh.replace('teehee', 'haha'); //haha so funny! teehee!
+//Notice that it only replaces the first instance
