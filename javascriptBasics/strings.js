@@ -83,3 +83,9 @@ Template literals are strings that allow embedded expressions, whoch will be eva
 let userName = "SamuraiMonkey90";
 `Welcome back, ${userName}`; // Welcome back, samuraiMonkey90
 `GAME OVER ${usename.toUpperCase()}` //GAME OVER SAMURAIMONKEY90
+
+let item = 'cucumbers';
+let price = 1.99;
+let quantity = 4;
+`You bought ${quantity} ${item}, total price $${price * quantity}`;
+//"You bought 4 cucumbers, total price $ 7.96"
