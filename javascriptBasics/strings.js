@@ -70,3 +70,16 @@ annoyingLaugh.replace('teehee', 'haha'); //haha so funny! teehee!
 - \" - double quotes
 - \\ - backslash 
 */
+
+
+//String Template Literals
+/*
+
+Template literals are strings that allow embedded expressions, whoch will be evaluated and then turned into a resulting string
+*/
+//example
+`I Counted ${3 + 4} sheep`; //I counted 7 sheep
+
+let userName = "SamuraiMonkey90";
+`Welcome back, ${userName}`; // Welcome back, samuraiMonkey90
+`GAME OVER ${usename.toUpperCase()}` //GAME OVER SAMURAIMONKEY90
