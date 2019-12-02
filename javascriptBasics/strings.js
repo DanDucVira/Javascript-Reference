@@ -61,3 +61,12 @@ str.slice(5) //skyrim
 let annoyingLaugh = "teehee so funny! teehee!";
 annoyingLaugh.replace('teehee', 'haha'); //haha so funny! teehee!
 //Notice that it only replaces the first instance
+
+
+//string Escapes
+/*
+- \n - newline
+- \' - single quote
+- \" - double quotes
+- \\ - backslash 
+*/
