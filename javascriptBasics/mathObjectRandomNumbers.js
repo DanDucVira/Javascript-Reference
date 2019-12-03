@@ -10,6 +10,13 @@ Math.pi //3.141592653589793
 //Rounding a number:
 Math.round(4.9) //5
 
+//let's gemerate random numbers between 1 and 10
+const step1 = Math.random();
+const step2 = step1 * 10;
+const step3 = Math.floor(step2);
+const step4 = step3 + 1;
+Math.floor(Math.random() * 10) + 1;
+
 //Absolute value:
 Math.abs(-456) //456
 
