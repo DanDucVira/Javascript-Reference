@@ -38,3 +38,15 @@ Through it's uncommon, you can compare strings. just be carful, things get dicey
 true == false; //false
 0 == false; //true
 null == undefined; //true
+
+// ===(triple equals)
+//checks for equality of value AND type
+
+5 === 5; //true
+1 === 2; //false
+2 === '2'; //false
+false === 0; //false
+
+//same applies for != and  !==
+10 != '10'; //false
+10 !== '10'; //true
