@@ -14,12 +14,27 @@
 Through it's uncommon, you can compare strings. just be carful, things get dicey when dealing with case, special characters, and accents!
 
 */
-10 > 1;  ///true
+10 > 1; ///true
 0.2 > 0.3; //false
--10 < 0; //true
+-
+10 < 0; //true
 50.5 < 5; //false
 0.5 <= 0.5; //true
 99 >= 4; //true
 99 >= 99 //true
 'a' < 'b'; //true
 'A' > 'a'; //false
+
+// == (Double equals)
+/*
+-Checks for equality of value, but not equality of type.
+-It coerces both values to the same type and then compares them.
+-This can lead to some unexpected results!
+*/
+5 == 5; //true
+'b' == 'C'; //false
+7 == '7'; //true
+0 == ''; //true
+true == false; //false
+0 == false; //true
+nul == undefined; //true
