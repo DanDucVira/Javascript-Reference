@@ -37,4 +37,4 @@ Through it's uncommon, you can compare strings. just be carful, things get dicey
 0 == ''; //true
 true == false; //false
 0 == false; //true
-nul == undefined; //true
+null == undefined; //true
