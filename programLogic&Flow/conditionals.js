@@ -43,3 +43,19 @@ if (userScore >= highScore) {
 } else {
     console.log(`Good Game, Your Score of ${userScore} did not beat the high score of ${highScore}`);
 }
+
+
+//NESTING CONDITIONALS
+//We can nest conditionals inside conditionals
+
+
+let password = "cat dog";
+if (password.length >= 6 {
+        if (password.indexOf('') !== -1) {
+            console.log("Password cannit include spaces");
+        } else {
+            console.log("Valid password!!");
+        }
+    } else {
+        console.log("Password too short!");
+    }
