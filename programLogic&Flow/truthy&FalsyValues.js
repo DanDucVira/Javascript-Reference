@@ -18,3 +18,11 @@ if (mystery) {
 } else {
     console.log("FALSY");
 }
+
+let loogedInUser = "thomas123";
+
+if (loggedInUser) {
+    console.log("YOU ARE LOGGED IN!");
+} else {
+    console.log("PLEASE LOG IN");
+}
