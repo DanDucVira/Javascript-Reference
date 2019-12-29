@@ -26,3 +26,6 @@ if (num >= 1 && num <= 10) {
 } else {
     console.log("Please guess a number between 1 and 10");
 }
+
+//Operator Precedence
+//Not(!) has higher precedence than && and || && has higher precedence than ||

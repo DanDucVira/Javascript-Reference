@@ -17,3 +17,7 @@ let color = "violet";
 if (color === 'purple' || color === 'lilac' || color === 'violet') {
     console.log('GREAT CHOICE');
 }
+
+
+//Operator Precedence
+//Not(!) has higher precedence than && and || && has higher precedence than ||
