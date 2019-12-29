@@ -12,4 +12,8 @@ if (age < 6 || age >= 65) {
     console.log("YOU GET IN FOR FREE");
 } else {
     console.log("YOU MUST PAYYYY!");
-}6
+}
+let color = "violet";
+if (color === 'purple' || color === 'lilac' || color === 'violet') {
+    console.log('GREAT CHOICE');
+}
