@@ -23,3 +23,26 @@ dishesToDo.unshift('small plate');
 dishesToDo.unshift('coffee cup');
 
 dishesToDo.shift(); //removes the first value of an array
+
+/*
+More Methods
+- concat -> merge arrays
+- includes -> look for a value
+- indexOf -> just like str.indexOF
+- join -> creates a string from arr
+- reverse - reverses an array
+- slice -> copy portion of an arr
+- splice -> remove/replace elements
+- sort -> sorts an array
+
+*/
+
+
+//- concat -> merge arrays
+const array1 = ['a', 'b', 'c'];
+const array2 = ['d', 'e', 'f'];
+console.log(array1.concat(array2));
+
+let fruits = ['apple', 'banana'];
+let veggies = ['asparagus', 'brussel sprouts'];
+console.log(fruits.concat(veggies));
