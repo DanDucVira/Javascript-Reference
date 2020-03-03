@@ -33,3 +33,11 @@ const palette = {
 console.log(palette['red']);
 
 
+//addng and updating properties
+const userReviews = {
+
+
+};
+userReviews['DanDucVira'] = 4.0;
+userReviews.mrSmith90 = 2.4;
+console.log(userReviews);
