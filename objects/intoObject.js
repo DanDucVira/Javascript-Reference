@@ -15,3 +15,21 @@ let person = {
     country: "canada",
     favoriteGame: "skyrim"
 };
+
+//accessing object Properties
+const numbers = {
+    '100': 'one hundred',
+    '16': 'sixteen',
+};
+
+console.log(numbers[100]);
+
+const palette = {
+    red: '#eb4d4b',
+    yellow: '#f9ca24',
+    blue: '#30336b'
+
+};
+console.log(palette['red']);
+
+
