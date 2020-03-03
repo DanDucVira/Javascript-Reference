@@ -41,3 +41,37 @@ const userReviews = {
 userReviews['DanDucVira'] = 4.0;
 userReviews.mrSmith90 = 2.4;
 console.log(userReviews);
+
+
+//Nested Arrays & objects
+const students = {
+    firstName: "dany",
+    lastName: "beaudeat",
+    strengths: ['Music', 'Art'],
+    exams: {
+        midterm: 92,
+        final: 88
+    }
+
+};
+const avg = (students.exams.midterm + students.exams.final) / 2;
+console.log(avg);
+
+
+
+const shoppingCart = [{
+        product: "milk",
+        price: 3.45,
+        quantiy: 1
+    },
+    {
+        product: "soda",
+        price: 1.45,
+        quantiy: 2
+    },
+    {
+        product: "apple",
+        price: 0.45,
+        quantiy: 12
+    }
+];
