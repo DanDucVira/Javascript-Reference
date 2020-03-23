@@ -16,5 +16,11 @@ function funcName() {
 
 //dice roll fucntion
 
+function rollDie() {
+    //gives a number between 1 to 6
+    let roll = Math.floor(Math.random() * 6) + 1;
+    console.log(`Rolled: ${roll}`);
 
 
+
+}
