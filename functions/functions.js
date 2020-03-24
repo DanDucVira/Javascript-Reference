@@ -41,3 +41,10 @@ greet("Daniel");
 function sum(x, y) {
     console.log(x + y);
 }
+
+//retrun statement
+//Return-- Buil-in methods return values when we call them.
+
+function add(x, y) {
+    return x + y;
+}
