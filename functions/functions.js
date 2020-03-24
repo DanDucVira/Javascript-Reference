@@ -24,3 +24,14 @@ function rollDie() {
 
 
 }
+
+
+
+//function arguments
+
+function greet(nickname) {
+    console.log(nickname);
+    console.log("Hi" + nickname);
+
+}
+greet("Daniel");
