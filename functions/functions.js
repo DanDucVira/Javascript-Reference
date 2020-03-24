@@ -27,7 +27,7 @@ function rollDie() {
 
 
 
-//function arguments
+//function parameter
 
 function greet(nickname) {
     console.log(nickname);
@@ -35,3 +35,9 @@ function greet(nickname) {
 
 }
 greet("Daniel");
+
+
+//functions with multiple parameters
+function sum(x, y) {
+    console.log(x + y);
+}
