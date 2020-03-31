@@ -48,3 +48,20 @@ function sum(x, y) {
 function add(x, y) {
     return x + y;
 }
+
+function isPurple(color) {
+    if (color.toLowerCase() === 'purple') {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function containsPurple(arr) {
+    for (let color of arr) {
+        if (color === 'purple' || color === 'magenta') {
+            return true;
+        }
+        return false;
+    }
+}
