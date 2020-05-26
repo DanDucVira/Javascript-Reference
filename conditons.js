@@ -42,4 +42,3 @@ if (age >= 18) {
 } else {
     console.log("WE are sorry you cannot have access to our platform");
 }
-s
