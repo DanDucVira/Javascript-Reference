@@ -8,6 +8,12 @@
 === - strict equality --always use
 !== - strict non-equality --always use
 
+AND(&&)
+
+OR (||)
+
+Not(!)
+
 
 (==)
 * Checks for equality of value, but not equality of type.
@@ -16,4 +22,15 @@
 
 (===)
 *checks for equality of value AND type
+*/
+
+
+/*
+Operator Precedence
+
+Not(!) has higher precedence than && and || 
+&& has higher precedence than ||
+
+You can alter this using parens()
+
 */
