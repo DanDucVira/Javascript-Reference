@@ -4,6 +4,6 @@
 
 */
 
-for(let i; i< 10; i++){
-        //condition
+for (let i = 1; i <= 10; i++) {
+    //condition
 }
