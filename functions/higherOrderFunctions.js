@@ -1,3 +1,10 @@
+//Higer order functions
+/*
+    Functions that operate on/with other functions. They can:
+    *Accpet other functions as arguments
+    *Return a function
+*/
+
 function add(x, y) {
     return x + y;
 }
